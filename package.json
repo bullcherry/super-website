@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/index.html"
+    "build": "npm run test && parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.27.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.20.0",
     "eslint-plugin-react": "^7.30.1",
